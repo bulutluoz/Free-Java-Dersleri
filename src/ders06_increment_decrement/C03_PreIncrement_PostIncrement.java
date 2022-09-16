@@ -11,7 +11,6 @@ public class C03_PreIncrement_PostIncrement {
         ++sayi;
         System.out.println(sayi); // 12
 
-
         System.out.println(sayi++); // bu satirda Java once sayinin eski degerini yazdiracak 12
                                     // sonra sayiyi 1 artiracak sayi=13
         System.out.println(sayi);  // 13
