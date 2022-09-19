@@ -12,8 +12,10 @@ public class C02_IfElseStatements {
         System.out.println("Lutfen notunuzu giriniz");
         double not= scan.nextDouble();
 
-
-        if (not>=50) System.out.println("sinifi gectin");
-        else System.out.println("Maalesef kaldin");
+        if (not>=50){
+            System.out.println("Sinifi gectin");
+        }else {
+            System.out.println("Maalesef kaldin");
+        }
     }
 }

@@ -14,12 +14,13 @@ public class C05_IfElseIfStatements {
         System.out.println("lutfen bir tamsayi girin");
         int girilenSayi= scan.nextInt();
 
-        if (girilenSayi%5==0 && girilenSayi%3==0)
-            System.out.println("Super sayi");
-        else if (girilenSayi%3==0)
-            System.out.println("Uc ile bolunebilen sayi");
-        else if (girilenSayi%5==0)
-            System.out.println("Bes ile bolunebilen sayi");
+        if (girilenSayi%3==0 && girilenSayi%5==0){
+            System.out.println("super sayi");
+        } else if (girilenSayi%5==0) {
+            System.out.println("5'e bolunebilen sayi");
+        } else if (girilenSayi%3==0 ) {
+            System.out.println("3'e bolunebilen sayi");
+        }
 
     }
 }

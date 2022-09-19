@@ -20,14 +20,11 @@ public class C04_IfElseIfStatements {
 
         double vke= agirlik*10000 / (boy *boy);
 
-        if (vke>=30){
-            System.out.println("Cok yemissin, obezsin");
-        } else if (vke>=25){
-            System.out.println("Biraz daha az yemelisin, kilolusun");
-        }else if (vke>=20){
-            System.out.println("Gayet iyi gidiyorsun, kilon normal");
-        }else {
-            System.out.println("Biraz daha yemelisin, zayifsin");
-        }
+        System.out.println("Vucut kutle endeksiniz : " + vke);
+
+        if (vke>=30) System.out.println("Obez");
+        else if (vke>=25) System.out.println("Kilolu");
+        else if (vke>=20) System.out.println("Normal");
+        else System.out.println("zayif");
     }
 }
